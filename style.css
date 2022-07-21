@@ -158,6 +158,9 @@ p.slide-left{
     display: flex;
     justify-content: space-between;
 }
+span{
+font-size: 10px;
+}
 .fas.fa-clock {
 color: #878787;
 }
@@ -175,7 +178,7 @@ color: #878787;
 .active-button.show:hover {
 	background: #000;
 }
-/* footer */
+/* footer area */
 footer {
 	background: #161616;
 	padding: 36px 45px;
@@ -225,7 +228,7 @@ footer {
 	color: #fff;
     border: 2px solid #fff;
 }
-/* .............................................
+/* .............--------------..................
 ...............UPCOMING-MATCH_CSS............... */
 .upcoming-match-area{
 	margin-bottom: 120px;
@@ -269,9 +272,9 @@ footer {
 .single-body:hover{
     box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
 }
-             /* ............................................................................
-                                         RESPONSIVE
-          ............................................................................ */
+             /* ............-------------...........................-------------............
+                                         RESPONSIVE MISSION STARTED
+          ...........-------------......................................----------............. */
           @media only screen and (min-width: 300px) and (max-width: 767px){
             /* .banner-area */
             .banner-area {
@@ -330,7 +333,7 @@ footer {
             .footer-menu {
                 text-align: center;
             }
-            /* ......................upcoming-match-area-responsive............. */
+            /* ..........----$$$$$----upcoming-match-area-responsive------$$$$-----....... */
             .blog-button-upcoming {
                 width: 94%;
                 height: auto;
@@ -404,7 +407,7 @@ footer {
     .footer-menu ul li {
         margin: 10px 23px;
     }
-    /* ...........UPCOMING-MATCH_CSS........... */
+    /* ....----------..UPCOMING-MATCH_CSS..-------......... */
     .upcoming-match-area {
         display: block;
     }
